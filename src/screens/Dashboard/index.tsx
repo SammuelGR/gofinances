@@ -1,8 +1,11 @@
 import React from "react";
 
+import HighlightCard from "../../components/HighlightCard";
+
 import {
   Container,
   Header,
+  HighlightCards,
   Icon,
   Photo,
   User,
@@ -33,6 +36,12 @@ function Dashboard() {
           <Icon name="power" />
         </UserWrapper>
       </Header>
+
+      <HighlightCards>
+        <HighlightCard />
+        <HighlightCard />
+        <HighlightCard />
+      </HighlightCards>
     </Container>
   );
 }
